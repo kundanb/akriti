@@ -1,0 +1,32 @@
+{
+  "name": "akriti",
+  "version": "1.0.0",
+  "description": "A 2D JavaScript Library based on Canvas API.",
+  "main": "./src/Akriti.js",
+  "scripts": {
+    "watch": "webpack --mode=development --watch",
+    "build": "webpack --mode=production",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kundanb/Akriti.git"
+  },
+  "author": {
+    "name": "Kundan Bhasin",
+    "url": "https://github.com/kundanb",
+    "email": "kundanbhasin11062000@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kundanb/Akriti/issues"
+  },
+  "homepage": "https://github.com/kundanb/Akriti#readme",
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
